@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+
+  jup-spark:
+    image: jupyter/all-spark-notebook:6c3390a9292e
+    container_name: 'jup-spark'
+    ports:
+     - "8888:8888"
+    volumes:
+     - $PWD:/home/jovyan/work
