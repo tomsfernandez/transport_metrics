@@ -21,7 +21,7 @@ def api_call():
   import requests
   op_time = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   print(f"{op_time} - Calling BA API")
-  response = requests.get("https://apitransporte.buenosaires.gob.ar/colectivos/vehiclePositionsSimple?client_id=a6f6a0e6a4944509a9f0ee04e5b576ef&client_secret=1CE72344c7B04b3F96A3FE0b27F42b3c")
+  response = requests.get("https://apitransporte.buenosaires.gob.ar/colectivos/vehiclePositions?client_id=a6f6a0e6a4944509a9f0ee04e5b576ef&client_secret=1CE72344c7B04b3F96A3FE0b27F42b3c&json=1")
   if response.status_code != 200:
     print(f"{op_time} - Call to BA API wasnt succesfull... Skipping")
     return
