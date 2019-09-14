@@ -28,6 +28,8 @@ def api_call():
   op_time = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   print(f"{op_time} - Call to BA API succesfull")
   data = response.json()["_entity"]
+  for d in data:
+    del d['_id']
   collection.insert_many(data)
   op_time = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   print(f"{op_time} - Dumped points")
