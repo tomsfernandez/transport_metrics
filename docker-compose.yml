@@ -3,9 +3,38 @@ version: '3'
 services:
 
   jup-spark:
-    image: jupyter/all-spark-notebook:6c3390a9292e
+    image: spark-notebook
     container_name: 'jup-spark'
+    build:
+        context: .
+        dockerfile: Dockerfile
     ports:
      - "8888:8888"
+     - "4040:4040"
+     - "4041:4041"
+    environment:
+      GRANT_SUDO: "yes"
+    user: root
     volumes:
      - $PWD:/home/jovyan/work
+  
+  postgres:
+    image: postgres:11
+    container_name: 'postgres'
+    ports:
+    - "5432:5432"
+    environment:
+      POSTGRES_DB: sparkdb
+      POSTGRES_USER: sa
+      POSTGRES_PASSWORD: password
+    volumes:
+      - spark_data:/var/lib/postgresql/data
+
+networks:
+  default:                                                                                                                                                                
+    external:                                                                                                                                                               
+      name: custom_network                                                                                                                                                                                                                                                                                                                  
+
+volumes:                                                                                                                                                                
+  spark_data:
+    external: true    

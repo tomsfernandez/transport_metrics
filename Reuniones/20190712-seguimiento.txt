@@ -1,0 +1,15 @@
+# Seguimiento
+
+### Recomendaciones
+- Integraciones lo veo con Seba mano a mano porque requiere instalar .jars adicionales. Leer de filesystem.
+- Si trabajo con Spark Streaming puedo ver de hacer un *watch* sobre un directorio e ir agregando archivos.
+- Arranque con Spark Core y SQL para los primeros indicadores. Sin Spark Streams.
+- Me familiarice con la diferencia entre RDD y Dataframe. Sobre un Dataframe puedo hacer varias operaciones como registrarlo como tabla de SQL para poder ejecutar queries SQL.
+- El caminito es: empezar por el RDD, filesystem local, usar csv, no perder tiempo con las integraciones. No meterme con performance todavía. Tal vez si, pero ponerlo en cuarto lugar. Primero RDD, después Dataframe, Spark Sql, Apache Arrow, Spark Pandas UDF (User Defined Functions) ver un poco de lo que es Pandas, Partitioning (partition_by vs repartitioning). 
+
+**Apache Arrow**: para si tengo que usar una lambda con funciones que no son built in de Spark.
+**Testing con spark**: hay un poco. Otra es tener un volumen de pruebas y tener un notebook con pruebas y ejecutarlo.
+
+#### Tiempo en parada
+- Con Spark Streams (RT): union de 2 joins con 2 time windows.
+- Con Spark SQL (Batch): hacer join de coordenadas con dataframe que no sean las paradas sinó que sean las rutas. Me llegan coordenadas de vehículo y hago join con vehículo_ruta y hago join con ruta. En la tabla de rutas, una de las columnas puede ser un array. Entonces al hacer ese join, ya se que estoy en una ruta. Con la lat y long puedo buscar con un algoritmo (x) cerca de qué parada está.
