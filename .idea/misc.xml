@@ -3,18 +3,4 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
-  <component name="SbtLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../../Sandbox/play-java-starter-example" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../heart-care-agents" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../superpagos" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../superpagos/api" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../sandbox/play-java-seed" value="PREVIEW" />
-      </map>
-    </option>
-  </component>
-  <component name="ScalaSbtSettings">
-    <option name="customVMPath" />
-  </component>
 </project>

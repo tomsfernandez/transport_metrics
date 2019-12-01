@@ -53,3 +53,8 @@ volumes:
     external: false
   redis:
     external: false
+
+networks:
+  default:                                                                                                                                                                
+    external:                                                                                                                                                               
+      name: custom_network   

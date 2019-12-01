@@ -17,7 +17,7 @@ services:
     user: root
     volumes:
      - $PWD:/home/jovyan/work
-  
+
   postgres:
     image: postgres:11
     container_name: 'postgres'
