@@ -2,14 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dee69d18-a72c-4c39-bd4a-1163843971a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraper/scraper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/.ipynb_checkpoints/ba_batch_kpis-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Code/.ipynb_checkpoints/ba_batch_kpis-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/ba_batch_kpis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Code/ba_batch_kpis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proof of Concept/jdbc_postgres.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Proof of Concept/jdbc_postgres.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra/docker-compose.superset.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/.ipynb_checkpoints/ba_batch_kpis-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code/.ipynb_checkpoints/ba_batch_kpis-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/.ipynb_checkpoints/passenger_pickup_in_stop-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code/.ipynb_checkpoints/passenger_pickup_in_stop-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/.ipynb_checkpoints/time_in_stop-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code/.ipynb_checkpoints/time_in_stop-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/.ipynb_checkpoints/time_in_stop_streamed-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code/.ipynb_checkpoints/time_in_stop_streamed-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/ba_batch_kpis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code/ba_batch_kpis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/passenger_pickup_in_stop.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code/passenger_pickup_in_stop.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/time_in_stop.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code/time_in_stop.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/time_in_stop_streamed.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code/time_in_stop_streamed.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/ba_points/agency.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/ba_points/agency.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/ba_points/calendar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/ba_points/calendar.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/ba_points/calendar_dates.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/ba_points/calendar_dates.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/ba_points/feed_info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/ba_points/feed_info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/ba_points/frequencies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/ba_points/frequencies.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/ba_points/routes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/ba_points/routes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/ba_points/shapes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/ba_points/shapes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/ba_points/stops.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/ba_points/stops.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/ba_points/trips.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/ba_points/trips.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/mock_path_175.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/mock_path_175.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/paradaId_colectivo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/paradaId_colectivo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/paradas-de-colectivo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/paradas-de-colectivo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/passengers_in_stop/sube_transactions.json" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/passengers_in_stop/sube_transactions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/recorrido-colectivos.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/recorrido-colectivos.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/recorridos.json" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/recorridos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/solo-paradas.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/solo-paradas.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/streaming/points.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/streaming/points.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/time_in_stop/points.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/time_in_stop/points.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/time_in_stop/stops.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/time_in_stop/stops.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/time_in_stop/vehicle_route.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/time_in_stop/vehicle_route.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proof of Concept/.ipynb_checkpoints/ba_points-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/poc/.ipynb_checkpoints/ba_points-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proof of Concept/.ipynb_checkpoints/csv_streaming-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/poc/.ipynb_checkpoints/csv_streaming-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proof of Concept/.ipynb_checkpoints/grasshopper_to_csv-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/poc/.ipynb_checkpoints/grasshopper_to_csv-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proof of Concept/.ipynb_checkpoints/jdbc_postgres-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/poc/.ipynb_checkpoints/jdbc_postgres-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proof of Concept/.ipynb_checkpoints/python_spark_connect-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/poc/.ipynb_checkpoints/python_spark_connect-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proof of Concept/.ipynb_checkpoints/socket_streaming-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/poc/.ipynb_checkpoints/socket_streaming-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proof of Concept/ba_points.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/poc/ba_points.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proof of Concept/csv_streaming.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/poc/csv_streaming.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proof of Concept/grasshopper_to_csv.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/poc/grasshopper_to_csv.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proof of Concept/jdbc_postgres.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/poc/jdbc_postgres.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proof of Concept/person.csv" beforeDir="false" afterPath="$PROJECT_DIR$/poc/person.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proof of Concept/python_spark_connect.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/poc/python_spark_connect.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proof of Concept/socket_streaming.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/poc/socket_streaming.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reuniones/20190712-seguimiento.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reuniones/20190712-seguimiento.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/scraper/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/scraper/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/scraper/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/scraper/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/scraper/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/scraper/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/scraper/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/scraper/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraper/scraper.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,75 +60,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datasets/ba_points/frequencies.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Code/ba_batch_kpis.ipynb">
-          <provider selected="true" editor-type-id="jupyter-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datasets/ba_points/points.json">
-          <provider selected="true" editor-type-id="LargeFileEditor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datasets/ba_points/points_50000.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datasets/ba_points/points_50000_new.json">
-          <provider selected="true" editor-type-id="LargeFileEditor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datasets/ba_points/routes.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datasets/ba_points/shapes.txt">
-          <provider selected="true" editor-type-id="LargeFileEditor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datasets/ba_points/stop_times.txt">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="5040">
-              <caret line="29761" column="9" lean-forward="true" selection-start-line="29761" selection-start-column="9" selection-end-line="29761" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datasets/ba_points/stops.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datasets/ba_points/trips.txt">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="17">
-              <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -98,68 +85,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/infra/faking/.gitignore" />
-      </list>
-    </option>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-100" />
-    <option name="y" value="165" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="transMet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transMet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transMet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transMet" type="462c0819:PsiDirectoryNode" />
-              <item name="Code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transMet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transMet" type="462c0819:PsiDirectoryNode" />
-              <item name="Datasets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transMet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transMet" type="462c0819:PsiDirectoryNode" />
-              <item name="Datasets" type="462c0819:PsiDirectoryNode" />
-              <item name="ba_points" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1UOUKyjerodf9zpE1nm3AOwzqAF" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true&#10;C:/Users/TomasGreencode/home/projects/transMet/Datasets/ba_points/stop_times.txt" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="13.1.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,11 +156,11 @@
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../../Sandbox/play-java-starter-example" value="PREVIEW" />
+        <entry key="$USER_HOME$/Sandbox/play-java-starter-example" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../heart-care-agents" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../superpagos" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../superpagos/api" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../sandbox/play-java-seed" value="PREVIEW" />
+        <entry key="$USER_HOME$/sandbox/play-java-seed" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -230,145 +180,26 @@
       <workItem from="1570303214807" duration="68000" />
       <workItem from="1573919880776" duration="4266000" />
       <workItem from="1574000958215" duration="4305000" />
+      <workItem from="1575227082106" duration="112000" />
+      <workItem from="1575227211414" duration="716000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9798000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="SBT Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="RNConsole" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="SciView" order="9" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" />
-    <entry file="file://$PROJECT_DIR$/Code/ba_time_in_stop.ipynb" />
-    <entry file="file://$PROJECT_DIR$/infra/faking/fake_sube_transactions.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infra/faking/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proof of Concept/ba_points.ipynb">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proof of Concept/person.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proof of Concept/jdbc_postgres.ipynb">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/paradas-de-colectivo.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/recorrido-colectivos.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/ba_points/calendar_dates.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/ba_points/calendar.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/ba_points/agency.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/ba_points/feed_info.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/ba_points/frequencies.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/ba_points/points.json">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/ba_points/points_50000.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/ba_points/points_50000_new.json">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/ba_points/routes.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/ba_points/shapes.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/ba_points/trips.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="17">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/ba_points/stops.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/ba_points/stop_times.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="5040">
-          <caret line="29761" column="9" lean-forward="true" selection-start-line="29761" selection-start-column="9" selection-end-line="29761" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Code/ba_batch_kpis.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>
