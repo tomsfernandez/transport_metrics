@@ -13,9 +13,6 @@ client = MongoClient(f"{mongo_host}:{mongo_port}")
 print(f"Connected succesfully")
 collection = client[mongo_db][mongo_collection]
 
-client_id = os.environ['BA_API_CLIENT_ID']
-client_secret = os.environ['BA_API_CLIENT_SECRET']
-
 def api_call():
   import time
   import requests
